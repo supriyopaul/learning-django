@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="tictactoe.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+  <h1>Tic Tac Toe</h1>
+  <table>
+    <tr>
+      <td class="fs-2" id="cell0" onClick="tdclick(this.id);">O</td>
+      <td class="vert fs-2" id="cell1" onClick="tdclick(this.id);">X</td>
+      <td class="fs-2" id="cell2" onClick="tdclick(this.id);">O</td>
+    </tr>
+    <tr>
+      <td class="hori fs-2" id="cell3" onClick="tdclick(this.id);">X</td>
+      <td class="vert hori fs-2" id="cell4" onClick="tdclick(this.id);">O</td>
+      <td class="hori fs-2" id="cell5" onClick="tdclick(this.id);">X</td>
+    </tr>
+    <tr>
+      <td class="fs-2" id="cell6" onClick="tdclick(this.id);">X</td>
+      <td class="vert fs-2"id="cell7" onClick="tdclick(this.id);">X</td>
+      <td class="fs-2" id="cell8" onClick="tdclick(this.id);">O</td>
+    </tr>
+  </table>
+  </br></br>
+  <div class="border border-light p-3 mb-4 text-center">
+    <button type="button" class="btn btn-light" onclick="restart();">Restart!</button>
+  </div>
+  <script src="tictactoe.js"></script>
+</body>
+</html>
+

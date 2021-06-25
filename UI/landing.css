@@ -1,0 +1,51 @@
+body {
+    background-color: #7272AB;
+    font-family: 'Noto Serif', serif;
+    color: white;
+    padding-bottom:10%;
+}
+
+#container {
+    background-color: #700548;
+    width: 90%;
+    height: 90%;
+    align: center;
+    margin:auto;
+    padding-top:2em;
+    padding-bottom:4em;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    width: 60%;
+    margin:auto;
+    padding: 2em;
+}
+
+form{
+    text-align: center;
+}
+
+.userinput {
+    height: 2em;
+    width: 20em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.signup {
+    height: 5em;
+    width: 10em;
+    background-color: #7899D4;
+    text-color: white;
+    border-radius: 10%;
+}

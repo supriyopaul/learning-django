@@ -1,0 +1,30 @@
+.center-text {
+    text-align: center;
+}
+
+
+.playboard {
+  border-collapse: collapse !important;
+  border: 1 !important;
+  margin: 0 auto !important;
+  padding: 10% !important;
+}
+
+.dot {
+  border:solid 5px #F9C74F;
+  height: 100px;
+  width: 100px;
+  background-color: #577590 !important;
+  border-radius: 50%;
+  display: inline-block;
+  text-align:center;
+}
+
+.player1 {
+  background-color: #F94144 !important;
+}
+
+.player2 {
+  background-color: #43AA8B !important;
+}
+
